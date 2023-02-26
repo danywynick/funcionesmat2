@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="funcionesmat2.MainPage">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions ="Center">
+        <Label  Text=" Operaciones Matematicas"/>
+        <Entry Placeholder="Ingrese un numero" x:Name="Dato1" Keyboard="Numeric" />
+        <Entry Placeholder="Ingrese otro numero" x:Name="Dato2" Keyboard="Numeric"/>
+        <Entry Placeholder="El resultado es:" x:Name="Resultado"/>
+        <Button  Text="Suma" Clicked="Button_clicked"/>
+        <Button  Text="resta" Clicked="Button_clicked2"/>
+        <Button  Text="Multiplicacion" Clicked="Button_clicked3"/>
+        <Button  Text="Division" Clicked="Button_clicked4"/>
+    </StackLayout>
+</ContentPage>
